@@ -5,11 +5,11 @@
 # find out isprime
 def isprime(i):
     q=0
-    for u in range(1,i):
+    for u in range(1,i+1):
         if i%u==0:
             q+=1
             #print(u)
-    if q<=2:
+    if q==2:
         return True
     else:
         return False
